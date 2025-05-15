@@ -4,9 +4,11 @@
 We were tasked with developing a **data-driven solution** that identifies **creditworthy young farmers** in Nigeria, predicts **loan repayment behavior**, and fosters trust between **agripreneurs and financiers**. Our end-to-end solution features data simulation, warehousing, machine learning, and a user-friendly web interface to enhance access to affordable financing for youth-led agricultural enterprises.
 
 ## 🚀 LIVE PROJECT
-...
 
----
+- View the Live Web App [here](https://team-rushhour.streamlit.app/)
+- View the Analytics Dashboard [here](https://app.powerbi.com/view?r=eyJrIjoiY2NlYmIxN2ItMmRlYS00YzZjLWIxZWYtZTYxMGMzNzJhNzQ0IiwidCI6IjhkNzA3ZDY0LTgwNWYtNDM3OS1hOWQxLWU1M2VlNjE3YzBkYiJ9)
+- View the Prototype App [here](https://www.figma.com/proto/vxUYmhgnXhS86z1Xllr8X0/Agrolift?page-id=1%3A2&node-id=4-1427&starting-point-node-id=4%3A1427&scaling=scale-down-width&content-scaling=fixed&t=KLhy1l7N9h82iPKV-1)
+
 
 ## 📦 Project Structure
 
@@ -32,7 +34,6 @@ Provides a simple interface for interacting with the model and data.
 ## 🔍 Problem Statement
 Youth agripreneurs in Nigeria often lack the credit history and documentation that traditional financiers require, limiting their access to affordable capital. Our solution uses **alternative data points** (demographics, farm details, digital literacy, and financial behavior) to model **creditworthiness** and **reduce financing risk**.
 
----
 
 ## 🔧 Process & Architecture
 
@@ -57,33 +58,30 @@ Youth agripreneurs in Nigeria often lack the credit history and documentation th
 ### 4. Web App Deployment
 - Users (e.g., microfinance officers) can enter a new farmer’s information and get instant feedback on their loan eligibility or projected repayment behavior.
 
----
 
 ## 📊 Key Insights
 - Farmers with **tertiary education, good soil, and training access** showed higher likelihood of repayment.
 - **Digital literacy** strongly correlates with access to financial services.
 - **Belonging to a cooperative** improves chances of getting financing and repaying on time.
 
----
 
 ## 💡 Recommendations
 - Encourage agribusiness training programs for young farmers.
 - Incentivize digital financial inclusion via mobile banking and education.
 - Design credit scoring models that go beyond traditional financial history.
 
----
 
 📈 Deliverables
-Deliverable	Description
-📂 Synthetic Datasets	Clean, labeled data for 3,000 Nigerian youth farmers
-🏛️ Data Warehouse Schema	Structured star schema for easy querying and analysis
-🤖 Machine Learning Model	Predicts loan repayment probability using alternative data
-🌍 Streamlit Web App	Simple interface for financiers and policymakers
-📊 Insights & Recommendations	Actionable findings from exploratory data analysis
+- Synthetic Datasets	Clean, labeled data for 3,000 Nigerian youth farmers
+- Data Warehouse Schema	Structured star schema for easy querying and analysis
+- Machine Learning Model	Predicts loan repayment probability using alternative data
+- Streamlit Web App	Simple interface for financiers and policymakers
+- Data Visualization: Built a three-page interactive dashboard that highlights farmers finance profile in detail
+- Figma Prototype: Clickable UI/UX prototype of the solution
 
 🤝 Team Members
 - Joy Ibe
 - Aminat Olatunji
 - Kenneth Essien
 - Adewunmi
-- Ayomide Aderonmu
+- Ayomide

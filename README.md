@@ -23,11 +23,7 @@ Houses all generated CSV datasets used for exploration, modeling, and analysis:
 - `dim_financial_history.csv`: contains banking status, past loan records, and credit behavior.
 
 ### 3. `web app/` – Streamlit Web Application
-Provides a simple interface for interacting with the model and data.
-- `main.py`: Main Streamlit app entry point.
-- `loan_predictor.py`: Contains logic for predicting loan eligibility or success likelihood.
-- `input_handlers.py`: Prepares and validates user input for prediction.
-- `requirements.txt`: Lists required packages for deployment.
+houses the scripts used to develop the simple interface for interacting with the model and data.
 
 ---
 
@@ -37,7 +33,7 @@ Youth agripreneurs in Nigeria often lack the credit history and documentation th
 
 ## 🔧 Process & Architecture
 
-![Agripreneur Architecture](agripreneur_solution_architecture.jpg)
+![Agripreneur Architecture](Architectural_view_of_solution.jpg)
 
 ### 1. Data Generation
 - Synthetic datasets were generated to simulate realistic profiles of young Nigerian farmers.
@@ -48,7 +44,6 @@ Youth agripreneurs in Nigeria often lack the credit history and documentation th
   - `dim_farmer`: Farmer demographic profile
   - `dim_farm`: Farm characteristics and conditions
   - `dim_financial_history`: Credit behavior and loan history
-  - *(Optional fact tables for loans and yield performance)*
 
 ### 3. Machine Learning
 - Built a classifier model to predict loan success or repayment probability.
@@ -72,10 +67,10 @@ Youth agripreneurs in Nigeria often lack the credit history and documentation th
 
 
 📈 Deliverables
-- Synthetic Datasets	Clean, labeled data for 3,000 Nigerian youth farmers
-- Data Warehouse Schema	Structured star schema for easy querying and analysis
-- Machine Learning Model	Predicts loan repayment probability using alternative data
-- Streamlit Web App	Simple interface for financiers and policymakers
+- Synthetic Datasets: Clean, labeled data for 3,000 Nigerian youth farmers
+- Data Warehouse Schem:	Structured star schema for easy querying and analysis
+- Machine Learning Model:	Predicts loan repayment probability using alternative data
+- Streamlit Web App:	Simple interface for financiers and policymakers
 - Data Visualization: Built a three-page interactive dashboard that highlights farmers finance profile in detail
 - Figma Prototype: Clickable UI/UX prototype of the solution
 

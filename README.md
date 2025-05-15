@@ -9,6 +9,8 @@ We were tasked with developing a **data-driven solution** that identifies **cred
 - View the Analytics Dashboard [here](https://app.powerbi.com/view?r=eyJrIjoiY2NlYmIxN2ItMmRlYS00YzZjLWIxZWYtZTYxMGMzNzJhNzQ0IiwidCI6IjhkNzA3ZDY0LTgwNWYtNDM3OS1hOWQxLWU1M2VlNjE3YzBkYiJ9)
 - View the Prototype App [here](https://www.figma.com/proto/vxUYmhgnXhS86z1Xllr8X0/Agrolift?page-id=1%3A2&node-id=4-1427&starting-point-node-id=4%3A1427&scaling=scale-down-width&content-scaling=fixed&t=KLhy1l7N9h82iPKV-1)
 
+![Prototype App](agrolift_prototype_demo.gif)
+
 
 ## 📦 Project Structure
 

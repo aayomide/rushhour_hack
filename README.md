@@ -1,4 +1,4 @@
-# AgriLift: Improving Access to Affordable Finance for Young Agripreneurs in Nigeria 🌾💰
+# AgroLift: Improving Access to Affordable Finance for Young Agripreneurs in Nigeria 🌾💰
 
 ### 🌱 Project Background
 We were tasked with developing a **data-driven solution** that identifies **creditworthy young farmers** in Nigeria, predicts **loan repayment behavior**, and fosters trust between **agripreneurs and financiers**. Our end-to-end solution features data simulation, warehousing, machine learning, and a user-friendly web interface to enhance access to affordable financing for youth-led agricultural enterprises
@@ -53,20 +53,28 @@ Youth agripreneurs in Nigeria often lack the credit history and documentation th
   - `dim_farm`: Farm characteristics and conditions
   - `dim_financial_history`: Credit behavior and loan history
 
-### 3. Machine Learning
+### 3. Data Analytics
+   - Performed exploratory data analysis to identify patterns in loan access and repayment.  
+   - Generated visualizations showing relationships between digital skills, farming experience, and credit outcomes.  
+   - Identified key features most associated with successful loan repayment using correlation matrices and feature importance ranking.
+
+### 4. Machine Learning
 - Built a classifier model to predict loan success or repayment probability
 - Training involved labeled data with both successful and defaulted loans
 - Model inputs include digital literacy, years in farming, soil quality, and previous loan behavior
 
-### 4. Web App Deployment
-- Farmers have a web interface via which they can request for a loan
+### 5. Web App Deployment
+- Farmers have a web interface via which they can request a loan
 - Lenders / Microfinance officers can enter a new farmer’s information and get instant feedback on their loan eligibility or projected repayment behavior; using this to decide whether to accept or reject the loans
 
 
 ## 📊 Key Insights
-- Farmers with **tertiary education, good soil, and training access** showed a higher likelihood of repayment
-- **Digital literacy** strongly correlates with access to financial services
-- **Belonging to a cooperative** improves chances of getting financing and repaying on time
+- Farmers with good soil and training access showed a higher likelihood of repayment.
+- Digital literacy strongly correlates with access to financial services.
+- Lower-medium scale farms predominate, with fewer smallholder and upper-medium scale operations. This shows that most farmers operate on a small scale.
+- High activity areas suggest the likelihood of loan repayment.
+- Farmers who mostly need loans for Irrigation and land expansion purposes are most likely to repay their loans.
+
 
 
 ## 💡 Recommendations

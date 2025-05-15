@@ -7,7 +7,8 @@ We were tasked with developing a **data-driven solution** that identifies **cred
 
 - View the Live Web App [here](https://team-rushhour.streamlit.app/)
 - View the Analytics Dashboard [here](https://app.powerbi.com/view?r=eyJrIjoiY2NlYmIxN2ItMmRlYS00YzZjLWIxZWYtZTYxMGMzNzJhNzQ0IiwidCI6IjhkNzA3ZDY0LTgwNWYtNDM3OS1hOWQxLWU1M2VlNjE3YzBkYiJ9)
-- View the Prototype App [here](https://www.figma.com/proto/vxUYmhgnXhS86z1Xllr8X0/Agrolift?page-id=1%3A2&node-id=4-1427&starting-point-node-id=4%3A1427&scaling=scale-down-width&content-scaling=fixed&t=KLhy1l7N9h82iPKV-1)
+- See the App Prototype [here](https://www.figma.com/proto/vxUYmhgnXhS86z1Xllr8X0/Agrolift?page-id=1%3A2&node-id=4-1427&starting-point-node-id=4%3A1427&scaling=scale-down-width&content-scaling=fixed&t=KLhy1l7N9h82iPKV-1)
+  - See an explanation of the prototype and user flow in this video [here](https://drive.google.com/file/d/1EPz3CU0YSPuKzaqWCH-fojtCulmEXX9k/view?usp=sharing)
 
 ![Prototype App](agrolift_prototype_demo.gif)
 
@@ -53,7 +54,8 @@ Youth agripreneurs in Nigeria often lack the credit history and documentation th
 - Model inputs include digital literacy, years in farming, soil quality, and previous loan behavior.
 
 ### 4. Web App Deployment
-- Users (e.g., microfinance officers) can enter a new farmer’s information and get instant feedback on their loan eligibility or projected repayment behavior.
+- Users (e.g., microfinance officers) can enter a new farmer’s information and get instant feedback on their loan eligibility or projected repayment behavior
+- Farmers also have a web interface via which they can request for a loan
 
 
 ## 📊 Key Insights
@@ -70,7 +72,7 @@ Youth agripreneurs in Nigeria often lack the credit history and documentation th
 
 📈 Deliverables
 - Synthetic Datasets: Clean, labeled data for 3,000 Nigerian youth farmers
-- Data Warehouse Schem:	Structured star schema for easy querying and analysis
+- Data Warehouse Schema:	Structured star schema for easy querying and analysis
 - Machine Learning Model:	Predicts loan repayment probability using alternative data
 - Streamlit Web App:	Simple interface for financiers and policymakers
 - Data Visualization: Built a three-page interactive dashboard that highlights farmers finance profile in detail

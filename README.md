@@ -41,7 +41,7 @@ Youth agripreneurs in Nigeria often lack the credit history and documentation th
 
 ## 🔧 Process & Architecture
 
-![Agripreneur Architecture](Architectural_view_of_solution.jpg)
+![Agripreneur Architecture](Architectural_view_of_solution.png)
 
 ### 1. Data Generation
 - Synthetic datasets were generated to simulate realistic profiles of young Nigerian farmers

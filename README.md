@@ -1,7 +1,7 @@
 # AgriLift: Improving Access to Affordable Finance for Young Agripreneurs in Nigeria 🌾💰
 
 ### 🌱 Project Background
-We were tasked with developing a **data-driven solution** that identifies **creditworthy young farmers** in Nigeria, predicts **loan repayment behavior**, and fosters trust between **agripreneurs and financiers**. Our end-to-end solution features data simulation, warehousing, machine learning, and a user-friendly web interface to enhance access to affordable financing for youth-led agricultural enterprises.
+We were tasked with developing a **data-driven solution** that identifies **creditworthy young farmers** in Nigeria, predicts **loan repayment behavior**, and fosters trust between **agripreneurs and financiers**. Our end-to-end solution features data simulation, warehousing, machine learning, and a user-friendly web interface to enhance access to affordable financing for youth-led agricultural enterprises
 
 ## 🚀 LIVE PROJECT
 
@@ -12,6 +12,11 @@ We were tasked with developing a **data-driven solution** that identifies **cred
 
 ![Prototype App](agrolift_prototype_demo.gif)
 
+#### Key App Features:
+- `Farmer Education Hub`: This feature provides young farmers with bite-sized, localized learning modules on. How to improve creditworthiness. Best practices in recordkeeping, budgeting, and digital finance. By improving financial and agricultural literacy, this hub empowers farmers to become more bankable — directly addressing the brief’s call for farmer education tools that build trust with financiers.
+- `Farmer Groups`: This module allows users to join or form cooperatives, enabling group-based lending, peer accountability, and resource sharing.
+- `Partner with Agribusiness Training Centers`: We simulate a network of training organizations that can validate, mentor, or certify young farmers. Farmers can link their profiles to completed training or certifications. Verified training improves trust signals for lenders evaluating applications.
+
 
 ## 📦 Project Structure
 
@@ -21,17 +26,17 @@ Contains Python script for generating synthetic but realistic data reflecting th
 
 ### 2. `datasets/` – Synthetic CSV Datasets
 Houses all generated CSV datasets used for exploration, modeling, and analysis:
-- `dim_farmer.csv`: contains demographic profiles of 3,000 young farmers.
-- `dim_farm.csv`: contains farm size, location, irrigation type, and market access.
-- `dim_financial_history.csv`: contains banking status, past loan records, and credit behavior.
+- `dim_farmer.csv`: contains demographic profiles of 3,000 young farmers
+- `dim_farm.csv`: contains farm size, location, irrigation type, and market access
+- `dim_financial_history.csv`: contains banking status, past loan records, and credit behavior
 
 ### 3. `web app/` – Streamlit Web Application
-houses the scripts used to develop the simple interface for interacting with the model and data.
+houses the scripts used to develop the simple interface for interacting with the model and data
 
 ---
 
 ## 🔍 Problem Statement
-Youth agripreneurs in Nigeria often lack the credit history and documentation that traditional financiers require, limiting their access to affordable capital. Our solution uses **alternative data points** (demographics, farm details, digital literacy, and financial behavior) to model **creditworthiness** and **reduce financing risk**.
+Youth agripreneurs in Nigeria often lack the credit history and documentation that traditional financiers require, limiting their access to affordable capital. Our solution uses **alternative data points** (demographics, farm details, digital literacy, and financial behavior) to model **creditworthiness** and **reduce financing risk**
 
 
 ## 🔧 Process & Architecture
@@ -39,8 +44,8 @@ Youth agripreneurs in Nigeria often lack the credit history and documentation th
 ![Agripreneur Architecture](Architectural_view_of_solution.jpg)
 
 ### 1. Data Generation
-- Synthetic datasets were generated to simulate realistic profiles of young Nigerian farmers.
-- Data fields were designed to reflect practical variables such as education level, digital skills, and pest incidence.
+- Synthetic datasets were generated to simulate realistic profiles of young Nigerian farmers
+- Data fields were designed to reflect practical variables such as education level, digital skills, and pest incidence
 
 ### 2. Data Modeling
 - Built a **star schema**-based data warehouse consisting of:
@@ -49,25 +54,25 @@ Youth agripreneurs in Nigeria often lack the credit history and documentation th
   - `dim_financial_history`: Credit behavior and loan history
 
 ### 3. Machine Learning
-- Built a classifier model to predict loan success or repayment probability.
-- Training involved labeled data with both successful and defaulted loans.
-- Model inputs include digital literacy, years in farming, soil quality, and previous loan behavior.
+- Built a classifier model to predict loan success or repayment probability
+- Training involved labeled data with both successful and defaulted loans
+- Model inputs include digital literacy, years in farming, soil quality, and previous loan behavior
 
 ### 4. Web App Deployment
-- Users (e.g., microfinance officers) can enter a new farmer’s information and get instant feedback on their loan eligibility or projected repayment behavior
-- Farmers also have a web interface via which they can request for a loan
+- Farmers have a web interface via which they can request for a loan
+- Lenders / Microfinance officers can enter a new farmer’s information and get instant feedback on their loan eligibility or projected repayment behavior; using this to decide whether to accept or reject the loans
 
 
 ## 📊 Key Insights
-- Farmers with **tertiary education, good soil, and training access** showed higher likelihood of repayment.
-- **Digital literacy** strongly correlates with access to financial services.
-- **Belonging to a cooperative** improves chances of getting financing and repaying on time.
+- Farmers with **tertiary education, good soil, and training access** showed a higher likelihood of repayment
+- **Digital literacy** strongly correlates with access to financial services
+- **Belonging to a cooperative** improves chances of getting financing and repaying on time
 
 
 ## 💡 Recommendations
-- Encourage agribusiness training programs for young farmers.
-- Incentivize digital financial inclusion via mobile banking and education.
-- Design credit scoring models that go beyond traditional financial history.
+- Encourage agribusiness training programs for young farmers
+- Incentivize digital financial inclusion via mobile banking and education
+- Design credit scoring models that go beyond traditional financial history
 
 
 📈 Deliverables
@@ -75,7 +80,7 @@ Youth agripreneurs in Nigeria often lack the credit history and documentation th
 - Data Warehouse Schema:	Structured star schema for easy querying and analysis
 - Machine Learning Model:	Predicts loan repayment probability using alternative data
 - Streamlit Web App:	Simple interface for financiers and policymakers
-- Data Visualization: Built a three-page interactive dashboard that highlights farmers finance profile in detail
+- Data Visualization: Built a three-page interactive dashboard that highlights farmer's finance profile in detail
 - Figma Prototype: Clickable UI/UX prototype of the solution
 
 🤝 Team Members

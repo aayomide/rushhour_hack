@@ -1,5 +1,5 @@
 import boto3
-from config import access_key, secret_key
+from config import access_key, secret_key, region_name
 
 
 def aws_session():
@@ -9,6 +9,6 @@ def aws_session():
     session = boto3.Session(
         aws_access_key_id=access_key,
         aws_secret_access_key=secret_key,
-        region_name="us-east-1",
+        region_name=region_name,
     )
     return session

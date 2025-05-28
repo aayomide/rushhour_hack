@@ -1,6 +1,6 @@
-from airflow.models import Variable
-access_key = Variable.get("access_key")
-secret_key = Variable.get("secret_key")
+access_key = "your_aws_access_key"
+secret_key =  "your_aws_secret_key"
+region_name = "your_aws_region"
 bucket_name = "rushhour-hackathon"
 snowflake_table = "agrolift"
 farm_path = "dim_farm"
@@ -63,3 +63,5 @@ agro_states = [
 
 # Farming types
 farm_types = ["Crop Farming", "Livestock Farming", "Mixed Farming"]
+
+num_farmers = 3000
